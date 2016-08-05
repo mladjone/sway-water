@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sway Water</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ol> 
+					<li>
+						<a href="#what" class="whatLink">SWAY</a>
+					</li>
+					<li>
+						<a href="#flavors" class="flavorsLink">FLAVORS</a>
+					</li>
+					<li>
+						<a href="#process" class="processLink">PROCESS</a>
+					</li>
+					<li>
+						<a href="#story" class="storyLink">ABOUT</a>
+					</li>
+					<li>
+						<a href="#locations" class="locationsLink">LOCATIONS</a>
+					</li>
+					<li>
+						<a href="#contact" class="contactLink">CONTACT</a>
+					</li>
+					<li>
+						<a href="#">SHOP</a>
+					</li>
+				</ol>
+			</nav>
+		</header>
+		
+		<section class="animation">
+			<aside id="wavesAnima">
+				<img src="Images/waves.svg">
+			</aside>
+			<aside id="lemonAnima">
+				<img src="Images/lemon.svg">
+			</aside>
+		</section>
+
+		<section class="heroSection">
+			<article class="beneath">
+				<aside class="above">
+					<img src="Images/logo.png" alt="sway logo">
+				</aside>
+				<h1 id="toShowHide" class="beforeScroll">WATER FOR THE SENSES</h1>
+			</article>
+		</section>
+
+		<section id="what">
+			<h4>WHAT IS SWAY</h4>
+			<p>A simple solution to sugary, synthetic drinks. Real, organic fruit, infused with purified water resulting in a completely natural and refreshing beverage. Bottled right here in Austin, Texas.</p>
+		</section>
+
+		<section id="flavors">
+			<h4>FLAVORS</h4>
+			<article id="ssFirstProduct">
+				<div class="imgContainer"></div>
+				<h1>Cucumber / Lime / Mint</h1>
+				<p>PURIFIED WATER, ORGANIC CUCUMBER, ORGANIC LIME ORGANIC MINT</p>
+				<aside class="buyButton">ORDER 12 PACK</aside>					
+			</article>
+
+			<article id="ssSecondProduct">
+				<div class="imgContainer"></div>
+				<h1>Lemon / Ginger</h1>
+				<p>PURIFIED WATER, ORGANIC LEMON, ORGANIC ORANGE, ORGANIC GINGER</p>
+				<aside class="buyButton">ORDER 12 PACK</aside>
+			</article>
+
+			<article id="ssThirdProduct">
+				<div class="imgContainer"></div>
+				<h1>Grapefruit / Basil</h1>
+				<p>PURIFIED WATER, ORGANIC GRAPEFRUIT, ORGANIC BASIL</p>
+				<aside class="buyButton">ORDER 12 PACK</aside>
+			</article>
+
+			<article id="ssFourthProduct">
+				<h1>Rotating Flavors</h1>
+				<p>We're always working on new flavors to showcase the highest quality ingredients in season. Sign up for our newsletter to find out about new product releases!</p>
+				<aside class="buyButton">NEWSLETTER SIGNUP</aside>
+			</article>
+		</section>
+
+		<section class="fresh">
+			<h1>FRESH ORGANIC DELICIOUS</h1>
+		</section>
+
+		<section id="process">
+			<h4>OUR PROCESS</h4>
+			<article id="fsOne">
+				<div>1</div>
+				<h4>PICK</h4>
+				<p>We pick the freshest organic fruit available at the peak of ripeness, committed to supporting local agriculture as much as we are able.</p>
+			</article>
+			<article id="fsTwo">
+				<div>2</div>
+				<h4>PURIFY</h4>
+				<p>Our water is purified to eliminate any chemicals and minerals that can affect the taste, keeping our water delicious and refreshing.</p>
+			</article>
+			<article id="fsThree">
+				<div>3</div>
+				<h4>INFUSE</h4>
+				<p>We infuse the fruit in our water for just the right amount of time to get the essence of the fruit. We do not add any syrups, chemicals or additives to our water.</p>
+			</article>
+			<article id="fsFour">
+				<div>4</div>
+				<h4>BOTTLE</h4>
+				<p>Each bottle of Sway is bottled by hand without the use of machines. We also put positive words on the outside of the bottle to help put a little positive energy into the water.</p>
+			</article>
+		</section>
+
+		<section class="wrapStory">
+			<section id="story">
+				<h4>OUR STORY</h4>
+				<p>Our founders Albert & Sarah married in July of 2013 and headed to Canada for their honeymoon. As they wandered through Quebec City, they came upon a French bistro that served cucumber water. It was wonderfully refreshing and they stockpiled it in their water bottles for the rest of the trip. After they traveled back to Texas, they searched for something similar but there were simply no good options; so the idea for Sway was started.</p>
+			</section>
+
+			<section class="imageSlider">
+				<div id="slider">
+	                <aside class="slides" id="slideContainer">
+	                    <img id="image1" src="Images/slide-bottles.jpg" alt="sway bottles">
+	                	<img id="image2" src="Images/slide-single.jpg" alt="sway bottle">    	
+	                	<img id="image3" src="Images/slide-team.jpg" alt="sway team">    	
+	                </aside>
+	            </div>
+				<br>
+				<div>
+					<i id="showFirst" class="fa fa-circle" aria-hidden="true" onClick="galeryOne()"></i>
+					<i id="showSecond" class="fa fa-circle" aria-hidden="true" onClick="galeryTwo()"></i>
+					<i id="showThird" class="fa fa-circle" aria-hidden="true" onClick="galeryThree()"></i>
+				</div>
+			</section>
+
+			<section class="philosophy">
+				<h4>OUR PHILOSOPHY</h4>
+				<p>“We believe that we can build a successful company while maintaining our core principles of sustainability and philanthropy and inspiring other companies to do the same.”</p>
+				<p class="sign">Albert & Sarah Swantner</p>
+			</section>
+
+			<section class="inspiration">
+				<p>Our inspiration is the belief that we can make a difference in the world, that our commitment to whole fruits rather than the ‘essence’ creates a wholly different beverage than what exists currently.</p>
+				<p>We believe in taking care of our environment, from partnering with the The Adventure Project to bring irrigation to developing countries, to our reusuable bottle program.</p>
+			</section>
+			
+			<section class="commitment">
+				<h4>OUR COMMITMENT</h4>
+				<p>For each bottle of Sway purchased, you will help a farmer irrigate one square foot of farmland in Kenya.</p>
+			</section>
+
+			<section class="adventure">
+				<img src="Images/adventure-project.jpg" alt="sway Kenya project">
+				<div class="insidePictureText">
+					<h2>1 SWAY BOTTLE IRRIGATES 1 SQ FT OF FARMLAND</h2>
+				</div>
+				<p>Photo by Esther Havens for The Adventure Project</p>
+			</section>
+
+			<section class="adventureProject">
+				<p>We have partnered with The Adventure Project to help bring irrigation to farmers in Kenya. Irrigation helps make farm land more productive, reduces land clearing, and provides jobs and incomes to lift people out of poverty.</p>
+				<a href="http://www.theadventureproject.org/#the-collective-header">THE ADVENTURE PROJECT WEBSITE</a>
+			</section>
+		</section>
+
+		<section id="locations">
+			<h4>WHERE TO FIND US</h4>
+			<p>Thirsty? Get to the closest store near you. You can always get Sway delivered to your door.</p>
+			<div id="map"></div>
+		</section>
+			
+		<section class="placesOnMap">
+			<h4>LOCATIONS</h4>
+			<ul>
+				<li>
+					<a href="#">Bee Cave Coffee Co.</a>
+				</li>
+				<li>
+					<a href="#">Bee Cave Coffee Co. Domain</a>
+				</li>
+				<li>
+					<a href="#">Dazzle Coffee <span>Pflugerville</span></a>
+				</li>
+				<li>
+					<a href="#">Dazzle Coffee <span>Round Rock</span></a>
+				</li>
+				<li>
+					<a href="#">Fresh Plus Clarksville</a>
+				</li>
+				<li>
+					<a href="#">Fresh Plus 24th Street</a>
+				</li>
+				<li>
+					<a href="#">Fresh Plus hyde Park</a>
+				</li>
+				<li>
+					<a href="#">Fresh Plus Anderson Lane</a>
+				</li>
+				<li>
+					<a href="#">in.gredients</a>
+				</li>
+				<li>
+					<a href="#">The Lagree Studio</a>
+				</li>
+				<li>
+					<a href="#">Live Oak Market</a>
+				</li>
+				<li>
+					<a href="#">Meditation Bar</a>
+				</li>
+				<li>
+					<a href="#">Omni Barton Creek Resort and Spa</a>
+				</li>
+				<li>
+					<a href="#">Royal Blue Grocery on Congress</a>
+				</li>
+				<li>
+					<a href="#">Royal Blue Grocery on 3rd</a>
+				</li>
+				<li>
+					<a href="#">Royal Blue Grocery on Rainey</a>
+				</li>
+				<li>
+					<a href="#">SFC Farmers Market Downtown</a>
+				</li>
+				<li>
+					<a href="#">Wright Bros. Brew and Brew</a>
+				</li>
+			</ul>
+		</section>
+
+		<section class="location">
+			<aside>
+				<h4>ONLINE STORES</h4>
+				<a href="https://squareup.com/store/swaywater">Sway Store</a>
+				<a href="http://batchusa.com/pages/batch-austin">Batch Austin</a>
+			</aside>
+			<aside>
+				<h4>SCHOOLS</h4>
+				<p>Available in select middle and high schools in the Austin Independent School District!</p>
+			</aside>
+		</section>
+
+		<section id="contact">
+			<h4>CONTACT</h4>
+			<p>Have any questions about our product or want to sell Sway Water in your store? Don’t be a stranger!</p>
+			<form>
+				<input type="text" name="Name" placeholder="NAME*">
+				<input type="text" name="Company" placeholder="COMPANY">
+				<input type="text" name="Email" placeholder="EMAIL*">
+				<input type="text" name="Phone" placeholder="PHONE">
+				<textarea type="text" name="About" placeholder="I'D LIKE TO TALK ABOUT...*"></textarea>
+			</form>
+				<aside class="sendMessage">SEND MESSAGE</aside>
+		</section>
+
+		<footer>
+			<h2>Join our newsletter</h2>
+			<p>Enter your email and be the first to know about special offers and events!</p>
+			<form>
+				<input type="text" name="Email" placeholder="Enter your email">
+				<input class="subscribe" type="submit" value="Subscribe">
+			</form>
+			<section>
+				<aside id="leftFooter">
+					<h2>Sway Water</h2>
+					<p>3200 Jones Rd</p>
+					<p>Sunset Valley, TX 78745</p>
+					<p>+1 210 287 6477</p>
+					<a href="mailto:info@swaywater.com">info@swaywater.com</a>
+				</aside>
+				<aside id="rightFooter">
+					<h2>Follow</h2>
+					<div class="carrotBorder">
+						<a href="https://www.facebook.com/swaywater"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div class="carrotBorder">
+						<a href="https://www.instagram.com/swaywater/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div class="carrotBorder">
+					<a href="https://twitter.com/swaywateratx"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<p>#swaythisway</p>
+				</aside>
+			</section>
+		</footer>
+		<script src="main.js" type="text/javascript"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initialize" async defer></script>
+	</body>
+</html>
